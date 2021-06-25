@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <!-- container for whole page -->
+    <div class="container">
+        <!-- fixed nav -->
+        <nav>
+            <!-- h1nav a href profile. a href home, my profile, find connections. sign out button -->
+            <h1 id="h1nav">Profile</h1>
+            <a href="">home</a>
+            <a id="myprof" href="">My Profile</a>
+            <a href="">Find Connections</a>
+            <button>Sign Out</button>
+        </nav>
+        <!-- main div holds user card -->
+        <div id="main">
+            <div class=col>
+            <div id="maincoltop"></div>
+            <div id="maincolbottom">
+                <!-- position lil icon on left, housed within colwhite-->
+                <span class="dot"></span>
+                    <img id="usericon" src="./images/user-circle.png" alt="user icon">
+                    <!-- create section for name h1 -->
+                    <div id="username">
+                        <h1>Jacob Sexton</h1>
+                    </div>
+                    <!-- create section for location h2 with lil icon -->
+                    <div id="location">
+                        <img id="mapmarker" src="./images/map-marker.png" alt="map marker">
+                            <h2>Dallas, TX</h2>
+                    </div>
+                    <!-- create section for titles p -->
+                    <div id="titles">
+                        <p>Developer | Engineer | Problem Solver</p>
+                    </div>
+                    <!-- create section for bio p -->
+                    <div id="bio">
+                        <p>Friendly neighborhood cool guy</p>
+                    </div>
+                    <!-- create section with settings icon and edit profile link a -->
+                    <div id="edit">
+                        <a href="#"><img id="gear" src="./images/gear.png" alt="gear">edit profile</a>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <!-- request div -->
+        <div id="requests">
+            <!-- top col dark grey. 2 icon. connections -->
+            <div id="reqcoltop">
+                <img src="2222222" alt="number 2 icon">
+                <h3>Connection Requests</h3>
+            </div>
+            <div id="reqcolbottom">
+                <div id="reqrowtodd">
+                    <img id="ppl" src="ppppplll" alt="ppl">
+                    <h5>(hot) Todd E</h5>
+                    <img id="check" src="check" alt="check">
+                    <img id="x" src="x" alt="check">
+                </div>
+                <!-- bottom col white. 2 ppl icons. names. icons for check and x -->
+                <div id="reqrowphil">
+                <img id="ppl" src="ppppplll" alt="ppl">
+                    <h5>phil</h5>
+                    <img id="check" src="check" alt="check">
+                    <img id="x" src="x" alt="x">
+                </div>
+            </div>
+        </div>
+        <!-- ed div for education box-->
+        <div id="ed">
+            <!-- top col dark grey, white font. -->
+            <div id="edcoltop">
+                <h3>Education</h3>
+            </div>
+            <!-- bottom col white. 3 lines -->
+            <div id="edcolbottom">
+                <div id="edrowdojo">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                </div>
+                <div id="edrowdate">
+                    <p id="pgrey">Dec 2019 - Mar 2020</p>
+                </div>
+                <div id="edrowdescription">
+                    <p id="pblk">Triple black belt in Python, MERN, and C#</p>
+                </div>
+            </div>
+        </div>
+        <!-- connections div -->
+        <div id="connections">
+            <!-- top col dark grey. 500+ icon. your connections-->
+            <div id="concoltop">
+                <img id="500" src="" alt="500 icon">
+                <h3>Your Connections</h3>
+            </div>
+            <!-- bottom middle col white. 4ppl icons. 4 names. -->
+            <div id="concolmid">
+                <div id="conrowjerry">
+                    <img id="ppl" src="ppppplll" alt="ppl">
+                    <h5>Jerry S.</h5>
+                </div>
+                <div id="conrowgeorge">
+                    <img id="ppl" src="ppppplll" alt="ppl">
+                    <h5>George C.</h5>
+                </div>
+                <div id="reqrowelaine">
+                    <img id="ppl" src="ppppplll" alt="ppl">
+                    <h5>Elaine B</h5>
+                </div>
+                <div id="reqrowkramer">
+                    <img id="ppl" src="ppppplll" alt="ppl">
+                    <h5>Cosmo K.</h5>
+                </div>
+            </div>
+            <!-- bottom col white. blue href view connections-->
+            <div id="concolbottom">
+                <a id="viewmore" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">View More</a>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

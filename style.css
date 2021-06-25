@@ -1,0 +1,108 @@
+/* ed,requests,connections,a all same class to affect font */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.container{
+    height: auto;
+    width: auto;
+    border: 5px dotted red;
+}
+.col{
+    
+}
+nav{
+    height: 80px;
+    width: auto;
+    border: 5px solid black;
+}
+#main{
+    height: 400px;
+    width: 480px;
+    border: 5px solid rgb(111, 0, 255);
+    margin: 25px 25px 25px 160px;
+    display: inline-block;
+    flex: 1;
+}
+#ed{
+    height: 400px;
+    width: 480px;
+    border: 5px solid rgb(228, 151, 8);
+    margin: 20px 25px 50px 160px;
+    display: inline-block;
+    flex-direction: 1;
+}
+#requests{
+    height: 280px;
+    width: 280px;
+    border: 5px solid rgb(0, 255, 55);
+    display: inline-block;
+    margin: 100px auto 20px 20px;
+    vertical-align: top;
+    flex: 2;
+}
+#connections{
+    height: 400px;
+    width: 280px;
+    border: 5px solid rgb(255, 0, 170);
+    display: inline-block;
+    margin: 20px auto 50px 20px;
+    flex: 2;
+}
+#reqcoltop{
+    height: 50px;
+    width: auto;
+    border: 2px solid gold;
+}
+#reqcolbottom{
+    height: 230px;
+    width: auto;
+    border: 2px dotted purple;
+}
+#concoltop{
+    height: 50px;
+    width: auto;
+    border: 2px solid rgb(230, 109, 193);
+}
+#concolmid{
+    height: 300px;
+    width: auto;
+    border: 2px solid rgb(255, 0, 128);
+}
+#concolbottom{
+    height: 50px;
+    width: auto;
+    border: 2px solid rgb(220, 138, 236);
+}
+#edcoltop{
+    height: 50px;
+    width: auto;
+    border: 2px solid rgb(236, 218, 138);
+}
+#edcolbottom{
+    height: 350px;
+    width: auto;
+    border: 2px solid rgb(218, 236, 138);
+}
+#maincoltop{
+    height: 100px;
+    width: auto;
+    border: 2px solid rgb(138, 177, 236);
+    background-color: rgb(10, 189, 212);
+}
+#maincolbottom{
+    height: 300px;
+    width: auto;
+    border: 2px solid rgb(138, 200, 236);
+}
+#usericon{
+    height: 50px;
+}
+#location{
+    height: 25px;
+}
+#gear{
+    height: 25px;
+}
